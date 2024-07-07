@@ -4,7 +4,10 @@
 
 ## 安装
 
-下载 `build/好运来.exe`，即可。
+下载 `build/xxx.exe`，即可。`xxx` 为对应的地名，如 `guangzhou.exe`，为广州中考查询。
+
+- `build/guangzhou.exe`：广州中考；
+- `build/qingdao_admissions_examination_institute.exe`：青岛市招生考试院；
 
 ## 使用
 
