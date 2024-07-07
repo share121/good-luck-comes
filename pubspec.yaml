@@ -1,12 +1,11 @@
-name: dart
-description: A sample command-line application.
+name: good_luck_comes
+description: 检测成绩什么时候公布
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/share121/good-luck-comes
 
 environment:
   sdk: ^3.4.1
 
-# Add regular dependencies here.
 dependencies:
   dio: ^5.5.0
   media_kit: ^1.1.10
