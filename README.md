@@ -8,6 +8,7 @@
 
 - `build/guangzhou.exe`：广州中考；
 - `build/qingdao_admissions_examination_institute.exe`：青岛市招生考试院；
+- `build/cfszk.exe`：赤峰市中考信息网；
 
 ## 使用
 

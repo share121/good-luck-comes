@@ -12,7 +12,7 @@ Future<void> main() async {
       final res = await dio.post<String>('https://123.235.28.4:8081');
       if (res.data?.contains('当前系统尚未开放') == false) {
         print('出成绩了');
-        openUrl('https://zhongkao.gzzk.cn/cx/');
+        openUrl('https://123.235.28.4:8081');
         player.open(Media('./good-luck-comes.flac'));
         player.setPlaylistMode(PlaylistMode.single);
         break;
