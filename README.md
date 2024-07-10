@@ -21,3 +21,17 @@
 
 1. 按 `Win` + `R` 键，输入 `shell:startup`，确认。
 2. 将 `好运来.exe` 从该目录下删除。
+
+## 编译
+
+只能在 Windows 下编译。
+
+```sh
+.\build.bat <name-without-extension>
+```
+
+### 示例
+
+```sh
+.\build.bat guangzhou
+```
