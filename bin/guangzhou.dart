@@ -14,7 +14,8 @@ Future<void> main() async {
             'Referer': 'https://zhongkao.gzzk.cn/kstyrz/kstyrz_check.asp'
           }));
       if (res.data?.contains('请从首页开始访问网站！') == true) throw res.data!;
-      if (res.data?.contains('【成绩】录取计分科目[未开]') == false) {
+      if (res.data?.contains('<option value="99">9.【成绩】录取计分科目</option>') ==
+          false) {
         print('出成绩了');
         openUrl('https://zhongkao.gzzk.cn/cx/');
         player.open(Media('./good-luck-comes.flac'));
